@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+
+    /* Targeting modern JavaScript */
+    "target": "es2017",                                 
+
+    /* Modules */
+    "module": "commonjs",                              
+    "moduleResolution": "node",                         
+    "esModuleInterop": true,                           
+    "allowSyntheticDefaultImports": true,             
+
+    /* Library Output */
+    "rootDir": "src",                                  
+    "outDir": "dist",                                  
+
+    /* Type Declarations */
+    "declaration": true,                               
+    "declarationMap": true,                            
+    "emitDeclarationOnly": false,                      
+
+    /* Type Checking */
+    "strict": true,                                    
+    "skipLibCheck": true,                              
+    "forceConsistentCasingInFileNames": true,
+
+    /* Source Maps (Optional for Debugging) */
+    "sourceMap": true                                  
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "example", "dist"]
+}
